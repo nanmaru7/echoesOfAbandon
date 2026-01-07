@@ -37,7 +37,7 @@
 .category-link {
   font-family: var(--font-mono);
   font-size: 0.8rem;
-  color: var(--color-accent);
+  color: var(--color-accent-primary);
   text-transform: uppercase;
   letter-spacing: 0.1em;
   transition: letter-spacing 0.3s ease;

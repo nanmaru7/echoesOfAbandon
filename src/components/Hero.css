@@ -38,7 +38,7 @@
 .hero-tagline {
   font-family: var(--font-mono);
   font-size: 0.85rem;
-  color: var(--color-accent);
+  color: var(--color-accent-secondary);
   text-transform: uppercase;
   letter-spacing: 0.3em;
   margin-bottom: 1.5rem;
@@ -46,7 +46,7 @@
 }
 
 .hero-title {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-size: clamp(2.5rem, 6vw, 4.5rem);
   font-weight: 500;
   color: var(--color-text-primary);

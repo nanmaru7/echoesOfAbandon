@@ -29,15 +29,13 @@ export default function Navbar() {
       <div className="max-w-350 mx-auto px-8 sm:px-4 flex items-center justify-between">
         <a
           href="#"
-          className="flex flex-col no-underline leading-none"
           onClick={e => scrollToSection(e, 'hero')}
         >
-          <span className="font-serif text-2xl font-semibold text-text-primary tracking-wide">
-            Echoes
-          </span>
-          <span className="font-mono text-[0.65rem] text-accent uppercase tracking-[0.2em]">
-            of Abandon
-          </span>
+          <img
+          src="/Logo_PNG.png"
+          alt="Echoes of Abandon"
+          className="h-20 w-auto"
+          />
         </a>
 
         <button

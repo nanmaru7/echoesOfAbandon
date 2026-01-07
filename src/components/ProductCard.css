@@ -84,7 +84,7 @@
 }
 
 .quick-add:hover {
-  background: var(--color-accent);
+  background: var(--color-accent-primary);
 }
 
 /* Product badges */
@@ -92,7 +92,7 @@
   position: absolute;
   top: 1rem;
   left: 1rem;
-  background: var(--color-accent);
+  background: var(--color-accent-primary);
   color: var(--color-bg-primary);
   padding: 0.35rem 0.75rem;
   font-size: 0.7rem;
