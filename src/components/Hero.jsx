@@ -1,15 +1,15 @@
-import './Hero.css';
+import './Hero.css'
 
 export default function Hero() {
-  const scrollToShop = (e) => {
-    e.preventDefault();
-    document.getElementById('shop')?.scrollIntoView({ behavior: 'smooth' });
-  };
+  const scrollToShop = e => {
+    e.preventDefault()
+    document.getElementById('shop')?.scrollIntoView({ behavior: 'smooth' })
+  }
 
-  const scrollToAbout = (e) => {
-    e.preventDefault();
-    document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
-  };
+  const scrollToAbout = e => {
+    e.preventDefault()
+    document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })
+  }
 
   return (
     <header className="hero" id="hero">
@@ -17,12 +17,14 @@ export default function Hero() {
       <div className="hero-content">
         <p className="hero-tagline">Where Memory Fades Into Art</p>
         <h1 className="hero-title">
-          Capture the Beauty of<br />
+          Capture the Beauty of
+          <br />
           <span className="text-accent italic">Forgotten Spaces</span>
         </h1>
         <p className="hero-description">
-          Hauntingly beautiful prints, canvas art, and drinkware inspired by liminal spaces,
-          abandoned architecture, and the nostalgic aesthetics of places left behind.
+          Hauntingly beautiful prints, canvas art, and drinkware inspired by
+          liminal spaces, abandoned architecture, and the nostalgic aesthetics
+          of places left behind.
         </p>
         <div className="hero-cta">
           <a
@@ -42,13 +44,29 @@ export default function Hero() {
         </div>
         <div className="hero-features">
           <div className="flex items-center gap-2 text-text-muted text-sm md:text-xs">
-            <svg className="text-accent opacity-80" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <svg
+              className="text-accent opacity-80"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+            >
               <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
             </svg>
             <span>Premium Quality</span>
           </div>
           <div className="flex items-center gap-2 text-text-muted text-sm md:text-xs">
-            <svg className="text-accent opacity-80" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <svg
+              className="text-accent opacity-80"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+            >
               <rect x="1" y="3" width="15" height="13"></rect>
               <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
               <circle cx="5.5" cy="18.5" r="2.5"></circle>
@@ -57,7 +75,15 @@ export default function Hero() {
             <span>Free Shipping $50+</span>
           </div>
           <div className="flex items-center gap-2 text-text-muted text-sm md:text-xs">
-            <svg className="text-accent opacity-80" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <svg
+              className="text-accent opacity-80"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+            >
               <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
               <circle cx="12" cy="10" r="3"></circle>
             </svg>
@@ -70,5 +96,5 @@ export default function Hero() {
         <div className="scroll-line"></div>
       </div>
     </header>
-  );
+  )
 }

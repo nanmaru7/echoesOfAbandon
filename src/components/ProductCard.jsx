@@ -1,34 +1,32 @@
-import { useCart } from '../context/CartContext';
-import './ProductCard.css';
+import { useCart } from '../hooks/useCart'
+import './ProductCard.css'
 
 export default function ProductCard({ product, featured = false }) {
-  const { addToCart } = useCart();
+  const { addToCart } = useCart()
 
-  const getCategoryLabel = (category) => {
+  const getCategoryLabel = category => {
     switch (category) {
-      case 'canvas': return 'Canvas Print';
-      case 'prints': return 'Art Print';
-      case 'drinkware': return 'Ceramic';
-      default: return category;
+      case 'canvas':
+        return 'Canvas Print'
+      case 'prints':
+        return 'Art Print'
+      case 'drinkware':
+        return 'Ceramic'
+      default:
+        return category
     }
-  };
+  }
 
   return (
     <article className={`product-card ${featured ? 'featured-card' : ''}`}>
       <div className="product-image">
-        <div
-          className="product-placeholder"
-          style={{ '--hue': product.hue }}
-        >
+        <div className="product-placeholder" style={{ '--hue': product.hue }}>
           <span className="font-serif text-xl text-white/15 text-center whitespace-pre-line leading-tight z-10">
             {product.name.split(' ').slice(0, 2).join('\n')}
           </span>
         </div>
         <div className="product-overlay">
-          <button
-            className="quick-add"
-            onClick={() => addToCart(product)}
-          >
+          <button className="quick-add" onClick={() => addToCart(product)}>
             Quick Add
           </button>
         </div>
@@ -40,7 +38,7 @@ export default function ProductCard({ product, featured = false }) {
       </div>
       <div className="p-5 sm:p-4">
         {featured && (
-          <span className="font-mono text-[0.7rem] text-accent uppercase tracking-[0.1em]">
+          <span className="font-mono text-[0.7rem] text-accent uppercase tracking-widest">
             {getCategoryLabel(product.category)}
           </span>
         )}
@@ -61,5 +59,5 @@ export default function ProductCard({ product, featured = false }) {
         </div>
       </div>
     </article>
-  );
+  )
 }

@@ -1,12 +1,19 @@
-import ProductCard from './ProductCard';
+import ProductCard from './ProductCard'
 
-export default function ProductSection({ id, tag, title, subtitle, products, altBg = false }) {
+export default function ProductSection({
+  id,
+  tag,
+  title,
+  subtitle,
+  products,
+  altBg = false,
+}) {
   return (
     <section
       className={`py-24 md:py-16 ${altBg ? 'bg-bg-secondary' : ''}`}
       id={id}
     >
-      <div className="max-w-[1400px] mx-auto px-8 sm:px-4">
+      <div className="max-w-350 mx-auto px-8 sm:px-4">
         <div className="text-center mb-16">
           <span className="font-mono text-xs text-accent uppercase tracking-[0.2em] block mb-4">
             {tag}
@@ -14,7 +21,7 @@ export default function ProductSection({ id, tag, title, subtitle, products, alt
           <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] font-medium text-text-primary mb-4">
             {title}
           </h2>
-          <p className="text-base text-text-secondary max-w-[600px] mx-auto leading-[1.7]">
+          <p className="text-base text-text-secondary max-w-150 mx-auto leading-[1.7]">
             {subtitle}
           </p>
         </div>
@@ -35,5 +42,5 @@ export default function ProductSection({ id, tag, title, subtitle, products, alt
         </div>
       </div>
     </section>
-  );
+  )
 }

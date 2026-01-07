@@ -1,4 +1,4 @@
-import ProductCard from './ProductCard';
+import ProductCard from './ProductCard'
 
 export default function FeaturedSection({ products }) {
   return (
@@ -12,7 +12,8 @@ export default function FeaturedSection({ products }) {
             Bestselling Pieces
           </h2>
           <p className="text-base text-text-secondary max-w-[600px] mx-auto leading-[1.7]">
-            Our most haunting works, chosen by collectors who understand the beauty in abandonment.
+            Our most haunting works, chosen by collectors who understand the
+            beauty in abandonment.
           </p>
         </div>
 
@@ -23,5 +24,5 @@ export default function FeaturedSection({ products }) {
         </div>
       </div>
     </section>
-  );
+  )
 }
