@@ -10,9 +10,9 @@
 }
 
 .navbar.scrolled {
-  background: rgba(10, 10, 12, 0.95);
+  background: rgba(43, 45, 58, 0.95);
   backdrop-filter: blur(10px);
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 20px rgba(120, 201, 207, 0.1);
 }
 
 /* Nav links with underline animation */
@@ -40,8 +40,8 @@
   bottom: -4px;
   left: 0;
   width: 0;
-  height: 1px;
-  background: var(--color-accent);
+  height: 2px;
+  background: var(--color-accent-cyan);
   transition: width 0.3s ease;
 }
 

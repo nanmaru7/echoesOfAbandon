@@ -13,7 +13,7 @@ export default function AboutSection() {
             </div>
           </div>
           <div>
-            <span className="font-mono text-xs text-accent uppercase tracking-[0.2em] block mb-4">
+            <span className="font-mono text-xs text-accent-cyan uppercase tracking-[0.2em] block mb-4">
               Our Story
             </span>
             <h2 className="font-serif text-[clamp(1.75rem,3vw,2.5rem)] font-medium text-text-primary mb-6 leading-tight">
@@ -36,7 +36,7 @@ export default function AboutSection() {
               in abandonment.
             </p>
             <div className="mt-8 pt-8 border-t border-border">
-              <span className="font-serif italic text-lg text-accent">
+              <span className="font-serif italic text-lg text-accent-cyan">
                 — The Echoes Team
               </span>
             </div>

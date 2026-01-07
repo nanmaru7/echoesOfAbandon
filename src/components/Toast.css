@@ -5,16 +5,18 @@
   left: 50%;
   transform: translateX(-50%) translateY(100px);
   background: var(--color-bg-primary);
-  border: 1px solid var(--color-accent);
+  border: 2px solid var(--color-accent-cyan);
   padding: 1rem 1.5rem;
-  border-radius: 8px;
+  border-radius: 0;
   display: flex;
   align-items: center;
   gap: 0.75rem;
   z-index: 1200;
   opacity: 0;
   transition: all 0.3s ease;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  box-shadow:
+    0 5px 20px rgba(120, 201, 207, 0.2),
+    0 10px 40px rgba(0, 0, 0, 0.3);
 }
 
 .toast.show {

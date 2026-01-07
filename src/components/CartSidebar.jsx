@@ -137,7 +137,7 @@ export default function CartSidebar() {
               <p className="text-xs text-text-muted mb-6">
                 Shipping calculated at checkout
               </p>
-              <button className="w-full mb-3 inline-flex items-center justify-center px-8 py-3.5 text-sm font-semibold bg-accent text-bg-primary rounded hover:bg-accent-hover hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300">
+              <button className="w-full mb-3 inline-flex items-center justify-center px-8 py-3.5 text-sm font-semibold bg-accent-cyan text-bg-primary rounded-none hover:bg-accent-hover hover:-translate-y-0.5 transition-all duration-300">
                 Proceed to Checkout
               </button>
               <button

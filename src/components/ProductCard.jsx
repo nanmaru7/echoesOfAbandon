@@ -38,7 +38,7 @@ export default function ProductCard({ product, featured = false }) {
       </div>
       <div className="p-5 sm:p-4">
         {featured && (
-          <span className="font-mono text-[0.7rem] text-accent uppercase tracking-widest">
+          <span className="font-mono text-[0.7rem] text-accent-cyan uppercase tracking-widest">
             {getCategoryLabel(product.category)}
           </span>
         )}
@@ -51,7 +51,7 @@ export default function ProductCard({ product, featured = false }) {
             ${product.price.toFixed(2)}
           </span>
           <button
-            className="bg-transparent border border-border text-text-secondary px-4 py-2 text-xs font-semibold cursor-pointer hover:bg-accent hover:border-accent hover:text-bg-primary transition-all duration-300 sm:w-full sm:text-center"
+            className="bg-transparent border-2 border-accent-cyan text-text-secondary px-4 py-2 text-xs font-semibold cursor-pointer hover:bg-accent-cyan hover:border-accent-cyan hover:text-bg-primary transition-all duration-300 sm:w-full sm:text-center rounded-none"
             onClick={() => addToCart(product)}
           >
             Add to Cart

@@ -7,7 +7,7 @@ export const products = [
     price: 89.0,
     category: 'canvas',
     badge: 'Bestseller',
-    hue: 200,
+    hue: 190,
     featured: true,
   },
   {
@@ -17,7 +17,7 @@ export const products = [
     price: 45.0,
     category: 'prints',
     badge: 'New',
-    hue: 35,
+    hue: 28,
     featured: true,
   },
   {
@@ -26,7 +26,7 @@ export const products = [
     description: '15oz Ceramic, Dishwasher Safe',
     price: 24.0,
     category: 'drinkware',
-    hue: 160,
+    hue: 185,
     featured: true,
   },
   {
@@ -35,7 +35,7 @@ export const products = [
     description: '20" x 30" Gallery Wrapped Canvas',
     price: 79.0,
     category: 'canvas',
-    hue: 280,
+    hue: 350,
     featured: true,
   },
   // Prints
@@ -45,7 +45,7 @@ export const products = [
     description: '18" x 24" Archival Print',
     price: 42.0,
     category: 'prints',
-    hue: 180,
+    hue: 185,
   },
   {
     id: 6,
@@ -53,7 +53,7 @@ export const products = [
     description: '12" x 18" Archival Print',
     price: 32.0,
     category: 'prints',
-    hue: 45,
+    hue: 30,
   },
   {
     id: 7,
@@ -61,7 +61,7 @@ export const products = [
     description: '18" x 24" Archival Print',
     price: 42.0,
     category: 'prints',
-    hue: 220,
+    hue: 230,
   },
   {
     id: 8,
@@ -70,7 +70,7 @@ export const products = [
     price: 55.0,
     category: 'prints',
     badge: 'Popular',
-    hue: 15,
+    hue: 25,
   },
   // Canvas
   {
@@ -88,7 +88,7 @@ export const products = [
     price: 79.0,
     category: 'canvas',
     badge: 'New',
-    hue: 300,
+    hue: 355,
   },
   {
     id: 11,
@@ -96,7 +96,7 @@ export const products = [
     description: '16" x 24" Gallery Wrapped',
     price: 69.0,
     category: 'canvas',
-    hue: 60,
+    hue: 32,
   },
   {
     id: 12,
@@ -104,7 +104,7 @@ export const products = [
     description: '30" x 40" Gallery Wrapped',
     price: 119.0,
     category: 'canvas',
-    hue: 240,
+    hue: 235,
   },
   // Drinkware
   {
@@ -113,7 +113,7 @@ export const products = [
     description: '15oz Ceramic Mug',
     price: 22.0,
     category: 'drinkware',
-    hue: 30,
+    hue: 28,
   },
   {
     id: 14,
@@ -122,7 +122,7 @@ export const products = [
     price: 22.0,
     category: 'drinkware',
     badge: 'Popular',
-    hue: 200,
+    hue: 195,
   },
   {
     id: 15,
@@ -138,7 +138,7 @@ export const products = [
     description: '11oz Ceramic Mug',
     price: 18.0,
     category: 'drinkware',
-    hue: 120,
+    hue: 185,
   },
 ]
 
@@ -147,18 +147,18 @@ export const categories = [
     id: 'prints',
     name: 'Art Prints',
     description: 'Archival quality prints on premium paper',
-    hue: 200,
+    hue: 190,
   },
   {
     id: 'canvas',
     name: 'Canvas Art',
     description: 'Gallery wrapped, ready to hang',
-    hue: 35,
+    hue: 28,
   },
   {
     id: 'drinkware',
     name: 'Drinkware',
     description: 'Mugs & cups for daily nostalgia',
-    hue: 320,
+    hue: 350,
   },
 ]

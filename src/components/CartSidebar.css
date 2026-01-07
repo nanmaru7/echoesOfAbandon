@@ -25,8 +25,8 @@
   border-radius: 8px;
   background: linear-gradient(
     135deg,
-    hsl(var(--hue, 200), 30%, 15%) 0%,
-    hsl(var(--hue, 200), 40%, 8%) 100%
+    hsl(var(--hue, 200), 20%, 25%) 0%,
+    hsl(var(--hue, 200), 25%, 18%) 100%
   );
   display: flex;
   align-items: center;

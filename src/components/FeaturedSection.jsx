@@ -5,7 +5,7 @@ export default function FeaturedSection({ products }) {
     <section className="py-24 sm:py-16 bg-bg-primary" id="shop">
       <div className="max-w-[1400px] mx-auto px-8 sm:px-4">
         <div className="text-center mb-16">
-          <span className="font-mono text-xs text-accent uppercase tracking-[0.2em] block mb-4">
+          <span className="font-mono text-xs text-accent-cyan uppercase tracking-[0.2em] block mb-4">
             Featured
           </span>
           <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] font-medium text-text-primary mb-4">

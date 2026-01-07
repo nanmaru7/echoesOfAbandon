@@ -19,7 +19,7 @@ export default function Hero() {
         <h1 className="hero-title">
           Capture the Beauty of
           <br />
-          <span className="text-accent italic">Forgotten Spaces</span>
+          <span className="text-accent-cyan italic">Forgotten Spaces</span>
         </h1>
         <p className="hero-description">
           Hauntingly beautiful prints, canvas art, and drinkware inspired by
@@ -29,14 +29,15 @@ export default function Hero() {
         <div className="hero-cta">
           <a
             href="#shop"
-            className="inline-flex items-center justify-center px-8 py-3.5 text-sm font-semibold bg-accent text-bg-primary rounded hover:bg-accent-hover hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300"
+            className="inline-flex items-center justify-center px-8 py-3.5 text-sm font-semibold bg-accent-cyan text-bg-primary rounded-none hover:bg-accent-hover hover:-translate-y-0.5 transition-all duration-300"
+            style={{ boxShadow: '0 5px 20px rgba(120,201,207,0.3)' }}
             onClick={scrollToShop}
           >
             Explore Collection
           </a>
           <a
             href="#about"
-            className="inline-flex items-center justify-center px-8 py-3.5 text-sm font-semibold bg-transparent text-text-primary border border-border rounded hover:border-text-secondary hover:bg-white/5 transition-all duration-300"
+            className="inline-flex items-center justify-center px-8 py-3.5 text-sm font-semibold bg-transparent text-text-primary border-2 border-accent-cyan rounded-none hover:bg-accent-cyan/10 transition-all duration-300"
             onClick={scrollToAbout}
           >
             Our Story
@@ -45,7 +46,7 @@ export default function Hero() {
         <div className="hero-features">
           <div className="flex items-center gap-2 text-text-muted text-sm md:text-xs">
             <svg
-              className="text-accent opacity-80"
+              className="text-accent-cyan opacity-80"
               width="20"
               height="20"
               viewBox="0 0 24 24"
@@ -59,7 +60,7 @@ export default function Hero() {
           </div>
           <div className="flex items-center gap-2 text-text-muted text-sm md:text-xs">
             <svg
-              className="text-accent opacity-80"
+              className="text-accent-cyan opacity-80"
               width="20"
               height="20"
               viewBox="0 0 24 24"
@@ -76,7 +77,7 @@ export default function Hero() {
           </div>
           <div className="flex items-center gap-2 text-text-muted text-sm md:text-xs">
             <svg
-              className="text-accent opacity-80"
+              className="text-accent-cyan opacity-80"
               width="20"
               height="20"
               viewBox="0 0 24 24"

@@ -15,7 +15,7 @@ export default function ProductSection({
     >
       <div className="max-w-350 mx-auto px-8 sm:px-4">
         <div className="text-center mb-16">
-          <span className="font-mono text-xs text-accent uppercase tracking-[0.2em] block mb-4">
+          <span className="font-mono text-xs text-accent-cyan uppercase tracking-[0.2em] block mb-4">
             {tag}
           </span>
           <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] font-medium text-text-primary mb-4">
@@ -35,7 +35,7 @@ export default function ProductSection({
         <div className="text-center mt-12">
           <a
             href="#"
-            className="inline-flex items-center justify-center px-8 py-3.5 text-sm font-semibold bg-transparent text-accent border border-accent rounded hover:bg-accent hover:text-bg-primary transition-all duration-300"
+            className="inline-flex items-center justify-center px-8 py-3.5 text-sm font-semibold bg-transparent text-accent-cyan border-2 border-accent-cyan rounded-none hover:bg-accent-cyan hover:text-bg-primary transition-all duration-300"
           >
             View All {title}
           </a>

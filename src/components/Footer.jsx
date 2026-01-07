@@ -18,7 +18,7 @@ export default function Footer() {
               <span className="font-serif text-xl font-medium text-text-primary tracking-wider">
                 Echoes
               </span>
-              <span className="text-xs uppercase tracking-[0.3em] text-accent -mt-1">
+              <span className="text-xs uppercase tracking-[0.3em] text-accent-cyan -mt-1">
                 of Abandon
               </span>
             </a>
@@ -30,7 +30,7 @@ export default function Footer() {
               <a
                 href="#"
                 aria-label="Instagram"
-                className="text-text-muted hover:text-accent transition-colors duration-300"
+                className="text-text-muted hover:text-accent-cyan transition-colors duration-300"
               >
                 <svg
                   width="20"
@@ -48,7 +48,7 @@ export default function Footer() {
               <a
                 href="#"
                 aria-label="Twitter"
-                className="text-text-muted hover:text-accent transition-colors duration-300"
+                className="text-text-muted hover:text-accent-cyan transition-colors duration-300"
               >
                 <svg
                   width="20"
@@ -64,7 +64,7 @@ export default function Footer() {
               <a
                 href="#"
                 aria-label="Pinterest"
-                className="text-text-muted hover:text-accent transition-colors duration-300"
+                className="text-text-muted hover:text-accent-cyan transition-colors duration-300"
               >
                 <svg
                   width="20"

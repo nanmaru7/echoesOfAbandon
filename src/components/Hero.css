@@ -12,9 +12,9 @@
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse at 20% 80%, rgba(139, 92, 246, 0.15) 0%, transparent 50%),
-    radial-gradient(ellipse at 80% 20%, rgba(59, 130, 246, 0.1) 0%, transparent 50%),
-    radial-gradient(ellipse at 50% 50%, rgba(251, 191, 36, 0.05) 0%, transparent 70%),
+    radial-gradient(ellipse at 20% 80%, rgba(120, 201, 207, 0.12) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 20%, rgba(245, 169, 127, 0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 50%, rgba(232, 165, 165, 0.06) 0%, transparent 70%),
     linear-gradient(180deg, var(--color-bg-primary) 0%, var(--color-bg-secondary) 100%);
 }
 
@@ -37,22 +37,23 @@
 
 .hero-tagline {
   font-family: var(--font-mono);
-  font-size: 0.85rem;
-  color: var(--color-accent);
+  font-size: 1rem;
+  color: var(--color-accent-cyan);
   text-transform: uppercase;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.1em;
   margin-bottom: 1.5rem;
   animation: fadeInUp 0.8s ease;
 }
 
 .hero-title {
-  font-family: var(--font-serif);
+  font-family: var(--font-display);
   font-size: clamp(2.5rem, 6vw, 4.5rem);
-  font-weight: 500;
+  font-weight: 600;
   color: var(--color-text-primary);
-  line-height: 1.1;
+  line-height: 1.2;
   margin-bottom: 1.5rem;
   animation: fadeInUp 0.8s ease 0.1s backwards;
+  text-shadow: 0 0 30px rgba(120, 201, 207, 0.3);
 }
 
 .hero-description {
@@ -104,7 +105,7 @@
 .scroll-line {
   width: 1px;
   height: 40px;
-  background: linear-gradient(to bottom, var(--color-accent), transparent);
+  background: linear-gradient(to bottom, var(--color-accent-cyan), transparent);
   animation: scrollPulse 2s ease infinite;
 }
 
