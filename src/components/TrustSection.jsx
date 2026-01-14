@@ -73,7 +73,7 @@ export default function TrustSection() {
   ]
 
   return (
-    <section className="py-16 bg-bg-primary border-y border-border">
+    <section className="py-16 bg-concrete-texture border-y border-border">
       <div className="max-w-350 mx-auto px-8 sm:px-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-8 md:gap-4">
           {trustItems.map((item, index) => (

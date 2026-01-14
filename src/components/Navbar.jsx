@@ -35,7 +35,7 @@ export default function Navbar() {
           <span className="font-serif text-2xl font-semibold text-text-primary tracking-wide">
             Echoes
           </span>
-          <span className="font-mono text-[0.65rem] text-accent uppercase tracking-[0.2em]">
+          <span className="font-accent text-[0.65rem] text-accent uppercase tracking-[0.2em]">
             of Abandon
           </span>
         </a>

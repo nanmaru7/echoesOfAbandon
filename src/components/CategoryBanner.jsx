@@ -23,13 +23,13 @@ export default function CategoryBanner() {
                 style={{ '--hue': category.hue }}
               ></div>
               <div className="relative z-10">
-                <h3 className="font-serif text-2xl font-medium text-text-primary mb-2">
+                <h3 className="font-display text-2xl font-medium uppercase tracking-wide text-text-primary mb-2">
                   {category.name}
                 </h3>
-                <p className="text-sm text-text-secondary mb-6">
+                <p className="text-xs text-text-secondary mb-6 leading-relaxed">
                   {category.description}
                 </p>
-                <span className="category-link">Shop {category.name} →</span>
+                <span className="category-link font-accent uppercase tracking-wider text-xs">Shop {category.name} →</span>
               </div>
             </a>
           ))}

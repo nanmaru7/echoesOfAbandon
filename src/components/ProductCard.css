@@ -1,14 +1,15 @@
 /* ProductCard - Complex hover animations and dynamic HSL gradients */
 .product-card {
   background: #2b3437;
-  border-radius: 12px;
+  border-radius: 4px;
   overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.35s ease;
+  will-change: transform;
 }
 
 .product-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  transform: translateY(-8px) scale(1.01);
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.4);
 }
 
 .product-image {
@@ -38,9 +39,10 @@
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, transparent 49.5%, rgba(255,255,255,0.02) 49.5%, rgba(255,255,255,0.02) 50.5%, transparent 50.5%),
-    linear-gradient(0deg, transparent 49.5%, rgba(255,255,255,0.02) 49.5%, rgba(255,255,255,0.02) 50.5%, transparent 50.5%);
-  background-size: 20px 20px;
+    linear-gradient(90deg, transparent 49%, rgba(255,255,255,0.05) 49%, rgba(255,255,255,0.05) 51%, transparent 51%),
+    linear-gradient(0deg, transparent 49%, rgba(255,255,255,0.05) 49%, rgba(255,255,255,0.05) 51%, transparent 51%);
+  background-size: 30px 30px;
+  opacity: 0.6;
 }
 
 /* Radial gradient glow */
@@ -72,15 +74,18 @@
   color: var(--color-bg-primary);
   border: none;
   padding: 0.75rem 1.5rem;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   font-weight: 600;
+  font-family: var(--font-sans);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(10px);
 }
 
 .product-card:hover .quick-add {
-  transform: translateY(0);
+  transform: translateY(0) scale(1.05);
 }
 
 .quick-add:hover {

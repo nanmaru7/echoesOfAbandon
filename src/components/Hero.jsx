@@ -1,6 +1,20 @@
+import { useEffect } from 'react'
 import './Hero.css'
 
 export default function Hero() {
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrolled = window.scrollY
+      const heroBg = document.querySelector('.hero-bg')
+      if (heroBg && scrolled < window.innerHeight) {
+        heroBg.style.transform = `translateY(${scrolled * 0.4}px)`
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll, { passive: true })
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
   const scrollToShop = e => {
     e.preventDefault()
     document.getElementById('shop')?.scrollIntoView({ behavior: 'smooth' })
@@ -16,7 +30,7 @@ export default function Hero() {
     <div className="hero-bg"></div>
       <div className="hero-content">
         <p className="hero-tagline">Where Memory Fades Into Art</p>
-        <h1 className="hero-title">
+        <h1 className="hero-title font-display">
           Capture the Beauty of
           <br />
           Forgotten Spaces

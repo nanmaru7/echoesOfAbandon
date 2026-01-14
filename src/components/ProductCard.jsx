@@ -38,20 +38,20 @@ export default function ProductCard({ product, featured = false }) {
       </div>
       <div className="p-5 sm:p-4">
         {featured && (
-          <span className="font-mono text-[0.7rem] text-accent uppercase tracking-widest">
+          <span className="font-accent text-[0.65rem] text-accent uppercase tracking-[0.25em]">
             {getCategoryLabel(product.category)}
           </span>
         )}
-        <h3 className="font-serif text-lg sm:text-base font-medium text-text-primary my-2">
+        <h3 className="font-display text-xl sm:text-lg font-medium text-text-primary my-2 uppercase tracking-wide">
           {product.name}
         </h3>
-        <p className="text-sm text-text-muted mb-4">{product.description}</p>
+        <p className="text-xs text-text-muted mb-4 leading-relaxed">{product.description}</p>
         <div className="flex items-center justify-between gap-4 sm:flex-col sm:items-stretch sm:gap-3">
-          <span className="font-mono text-lg font-bold text-text-primary">
+          <span className="font-accent text-lg font-bold text-text-primary">
             ${product.price.toFixed(2)}
           </span>
           <button
-            className="bg-transparent border border-border text-text-secondary px-4 py-2 text-xs font-semibold cursor-pointer hover:bg-accent hover:border-accent hover:text-bg-primary transition-all duration-300 sm:w-full sm:text-center"
+            className="bg-transparent border-2 border-border text-text-secondary px-4 py-2.5 text-xs font-semibold uppercase tracking-wider cursor-pointer hover:bg-accent hover:border-accent hover:text-bg-primary transition-all duration-300 sm:w-full sm:text-center"
             onClick={() => addToCart(product)}
           >
             Add to Cart

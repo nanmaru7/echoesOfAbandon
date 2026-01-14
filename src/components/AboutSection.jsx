@@ -13,23 +13,23 @@ export default function AboutSection() {
             </div>
           </div>
           <div>
-            <span className="font-mono text-xs text-accent uppercase tracking-[0.2em] block mb-4">
+            <span className="font-accent text-xs text-accent uppercase tracking-[0.3em] block mb-4">
               Our Story
             </span>
-            <h2 className="font-serif text-[clamp(1.75rem,3vw,2.5rem)] font-medium text-text-primary mb-6 leading-tight">
+            <h2 className="font-display text-[clamp(2rem,4vw,3rem)] font-medium uppercase leading-tight tracking-wide text-text-primary mb-6">
               Finding Beauty in the In-Between
             </h2>
-            <p className="text-text-secondary leading-relaxed mb-5">
+            <p className="text-sm text-text-secondary leading-relaxed mb-5">
               Echoes of Abandon was born from a fascination with the spaces we
               pass through but rarely pause to observe. The empty hallways after
               hours, the parking garage at 2am, the mall that time forgot.
             </p>
-            <p className="text-text-secondary leading-relaxed mb-5">
+            <p className="text-sm text-text-secondary leading-relaxed mb-5">
               Each piece in our collection captures that uncanny feeling of
               familiarity mixed with unease—the sensation of being somewhere
               you've been before, yet never quite like this.
             </p>
-            <p className="text-text-secondary leading-relaxed mb-5">
+            <p className="text-sm text-text-secondary leading-relaxed mb-5">
               We're a small, independent studio dedicated to bringing these
               liminal moments to life through premium quality prints, canvas
               art, and everyday items that remind you to appreciate the beauty

@@ -27,6 +27,7 @@ function App() {
   return (
     <CartProvider>
       <div className="grain-overlay"></div>
+      <div className="scanlines-overlay"></div>
       <Navbar />
       <main>
         <Hero />

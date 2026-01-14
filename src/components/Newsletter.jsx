@@ -18,10 +18,10 @@ export default function Newsletter() {
     <section className="newsletter-section">
       <div className="max-w-[1400px] mx-auto px-8 sm:px-4">
         <div className="relative z-10 text-center max-w-[500px] mx-auto">
-          <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] font-medium text-text-primary mb-4">
+          <h2 className="font-display text-[clamp(2.5rem,5vw,4rem)] font-medium uppercase leading-tight tracking-wide text-text-primary mb-4">
             Enter the Void
           </h2>
-          <p className="text-text-secondary mb-8 leading-relaxed">
+          <p className="text-sm text-text-secondary mb-8 leading-relaxed">
             Subscribe for exclusive drops, early access, and a 10% discount on
             your first order.
           </p>
@@ -58,7 +58,7 @@ export default function Newsletter() {
               />
               <button
                 type="submit"
-                className="shrink-0 inline-flex items-center justify-center px-8 py-3.5 text-sm font-semibold bg-accent text-bg-primary rounded hover:bg-accent-hover hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 sm:w-full"
+                className="shrink-0 inline-flex items-center justify-center px-8 py-3.5 text-xs font-semibold uppercase tracking-wider bg-accent text-bg-primary rounded hover:bg-accent-hover hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 sm:w-full"
               >
                 Subscribe
               </button>
