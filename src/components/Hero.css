@@ -49,7 +49,7 @@
   font-family: var(--font-serif);
   font-size: clamp(2.5rem, 6vw, 4.5rem);
   font-weight: 500;
-  color: var(--color-text-primary);
+  color: var(--color-text-secondary);
   line-height: 1.1;
   margin-bottom: 1.5rem;
   animation: fadeInUp 0.8s ease 0.1s backwards;
@@ -57,11 +57,20 @@
 
 .hero-description {
   font-size: 1.1rem;
-  color: var(--color-text-secondary);
+  color: var(--color-text-primary);
   line-height: 1.7;
   max-width: 600px;
   margin: 0 auto 2.5rem;
   animation: fadeInUp 0.8s ease 0.2s backwards;
+}
+
+
+.decay-beauty {
+  color: #7f8f4e;
+  text-shadow:
+    0 0 10px rgba(45, 74, 30, 0.6),
+    0 0 20px rgba(45, 74, 30, 0.4),
+    0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .hero-cta {
