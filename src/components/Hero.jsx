@@ -13,7 +13,8 @@ export default function Hero() {
 
   return (
     <header className="hero" id="hero">
-    <div className="hero-bg"></div>
+      <div className="hero-bridge"></div>
+      <div className="hero-bg"></div>
       <div className="hero-content">
         <p className="hero-tagline">Where Memory Fades Into Art</p>
         <h1 className="hero-title">
