@@ -7,7 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "screenshot": "node screenshot.js",
+    "screenshot:desktop": "node screenshot.js --viewport desktop --output ./screenshots/desktop.png",
+    "screenshot:mobile": "node screenshot.js --viewport mobile --output ./screenshots/mobile.png",
+    "screenshot:fullpage": "node screenshot.js --fullpage --output ./screenshots/fullpage.png"
   },
   "dependencies": {
     "react": "^19.2.0",
@@ -15,6 +19,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
+    "@playwright/test": "^1.57.0",
     "@tailwindcss/postcss": "^4.1.18",
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",
@@ -26,6 +31,7 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
+    "playwright": "^1.57.0",
     "postcss": "^8.5.6",
     "prettier": "^3.7.4",
     "tailwindcss": "^4.1.18",

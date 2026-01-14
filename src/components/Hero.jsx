@@ -13,13 +13,13 @@ export default function Hero() {
 
   return (
     <header className="hero" id="hero">
-      <div className="hero-bg"></div>
+    <div className="hero-bg"></div>
       <div className="hero-content">
         <p className="hero-tagline">Where Memory Fades Into Art</p>
         <h1 className="hero-title">
           Capture the Beauty of
           <br />
-          <span className="text-accent italic">Forgotten Spaces</span>
+          Forgotten Spaces
         </h1>
         <p className="hero-description">
           Hauntingly beautiful prints, canvas art, and drinkware inspired by
@@ -29,7 +29,7 @@ export default function Hero() {
         <div className="hero-cta">
           <a
             href="#shop"
-            className="inline-flex items-center justify-center px-8 py-3.5 text-sm font-semibold bg-accent text-bg-primary rounded hover:bg-accent-hover hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300"
+            className="explore-btn inline-flex items-center justify-center px-8 py-3.5 text-sm font-semibold bg-btn text-bg-primary rounded hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300"
             onClick={scrollToShop}
           >
             Explore Collection

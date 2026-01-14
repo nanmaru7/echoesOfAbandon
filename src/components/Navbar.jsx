@@ -80,7 +80,7 @@ export default function Navbar() {
 
         <div className="flex items-center gap-4">
           <button
-            className="relative bg-transparent border-none text-text-primary cursor-pointer p-2 hover:text-accent transition-colors duration-300"
+            className="cart-button relative bg-transparent border-none text-text-primary cursor-pointer p-2 transition-colors duration-300"
             onClick={() => setIsCartOpen(true)}
             aria-label="Shopping cart"
           >
@@ -97,7 +97,7 @@ export default function Navbar() {
               <path d="M16 10a4 4 0 0 1-8 0"></path>
             </svg>
             {cartCount > 0 && (
-              <span className="absolute top-0 right-0 bg-accent text-bg-primary text-[0.65rem] font-bold w-4.5 h-4.5 rounded-full flex items-center justify-center">
+              <span className="cart-count absolute top-0 right-0 text-bg-primary text-[0.65rem] font-bold w-4.5 h-4.5 rounded-full flex items-center justify-center">
                 {cartCount}
               </span>
             )}

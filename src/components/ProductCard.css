@@ -1,6 +1,6 @@
 /* ProductCard - Complex hover animations and dynamic HSL gradients */
 .product-card {
-  background: var(--color-bg-secondary);
+  background: #2b3437;
   border-radius: 12px;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -102,11 +102,11 @@
 }
 
 .product-badge.new {
-  background: #10b981;
+  background: #c98a3a;
 }
 
 .product-badge.popular {
-  background: #f59e0b;
+  background: #7b8fa3;
 }
 
 .featured-card .product-image {
